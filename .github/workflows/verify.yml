@@ -25,8 +25,5 @@ jobs:
         YUKICODER_TOKEN: ${{ secrets.YUKICODER_TOKEN }}
         GH_PAT: ${{ secrets.GH_PAT }}
       run: oj-verify all
-
-jobs:
-  job-name:
-    permissions:
-      contents: write
+      permissions:
+        contents: write
