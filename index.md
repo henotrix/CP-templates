@@ -1,6 +1,11 @@
 ---
 data:
-  libraryCategories: []
+  libraryCategories:
+  - name: 01_language
+    pages:
+    - icon: ':warning:'
+      path: 01_language/random.cpp
+      title: 01_language/random.cpp
   verificationCategories:
   - name: .
     pages:
