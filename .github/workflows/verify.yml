@@ -16,7 +16,7 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Pull commits if any
-      run: git pull --all --rebase
+      run: git checkout main && git pull --all --rebase
 
     - name: Set up Python
       uses: actions/setup-python@v4
