@@ -12,10 +12,10 @@ template <class I> vector<I> lis(vector<I> &a) {
     // 2. change p{S[i], -1} -> p{S[i], INF} and add greater<p>()
     // for longest decreasing subsequence
     // 3. Add greater<p>() for longest non-increasing subsequence
-    auto it = lower_bound(all(res), p{S[i], -1});
+    auto it = lower_bound(all(res), p{a[i], -1});
     if (it == res.end())
       res.emplace_back(), it = res.end() - 1;
-    *it = {S[i], i};
+    *it = {a[i], i};
     prev[i] = it == res.begin() ? 0 : (it - 1)->second;
   }
   int L = sz(res), cur = res.back().second;
