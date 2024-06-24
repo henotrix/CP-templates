@@ -12,6 +12,7 @@ int main() {
   for (auto &i : a)
     cin >> i;
   auto l = lis<int>(a);
+  cout << sz(l) << '\n';
   for (int i : l)
     cout << i << ' ';
   cout << '\n';
