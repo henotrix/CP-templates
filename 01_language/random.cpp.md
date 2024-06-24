@@ -29,7 +29,7 @@ data:
   isVerificationFile: false
   path: 01_language/random.cpp
   requiredBy: []
-  timestamp: '2024-06-24 16:37:22+08:00'
+  timestamp: '2024-06-24 17:10:33+08:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
 documentation_of: 01_language/random.cpp
