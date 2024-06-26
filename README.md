@@ -15,16 +15,16 @@
 
 ### Language
 
-* `<random>`
-* Bit Hacks
+* [x] `<random>`
+* [x] Bit Hacks
 
 ### Sorting, Searching and DP related
 
-* LIS
+* [x] LIS
 
 ### Data Structures
 
-* GNU PBDS
+* [x] GNU PBDS
 * Segment Trees
     * Segment Tree
     * Segment Trees with Range Queries
@@ -105,6 +105,7 @@
 
 ### Sorting, Searching and DP related
 
+* PBDS priority queue
 * Floating Point Binary Search
 * SplitMix64
     * Usage in GP hash table
